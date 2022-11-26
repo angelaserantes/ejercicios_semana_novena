@@ -1,6 +1,16 @@
-import com.semananovena.Perro;
+/**
+ * Ejercicio semana novena.
+ * @author Angela Serantes
+ * @version 1.0
+ */
+
+import com.semananovena.ejercicios.Perro;
 
 public class Main {
+    /**
+     * metodo main para llamadas
+     * @param args parametros de entrada de la aplicacion
+     */
     public static void main(String[] args) {
         Perro perro_1 = new Perro();
         perro_1.setPelo("corto");
@@ -35,4 +45,4 @@ public class Main {
 }
 
 
-// En el ejercicio tres poner los atributos en privado no se puede acceder desde la clase main a esos atributos, para poder hacerlo tendrían que ser public
+// En el ejercicio tres poner los atributos en privado no se puede acceder desde la clase main a esos atributos, para poder hacerlo tendrian que ser public
